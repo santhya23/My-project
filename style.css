@@ -1,0 +1,192 @@
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: Times New Roman, sans-serif;
+    background-color:white;
+    color: black;
+}
+nav 
+{
+    background-color:teal ;
+    padding: 20px 0;
+}
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li 
+{
+    margin: 0 15px;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+}
+nav ul li a:hover 
+{
+    color:teal;
+}
+.section 
+{
+    padding: 60px 0;
+}
+.container 
+{
+    width: 80%;
+    margin: 0 auto;
+}
+#home 
+{
+    background: url('bgg.jpg') no-repeat center center/cover;
+    color:black;
+    text-align: center;
+    height: 90vh;
+}
+#home h1 
+{
+    font-size:3rem;
+    margin-bottom: 20px;
+}
+#home p 
+{
+    font-size: 1.5rem;
+}
+#about 
+{
+    background-color:teal;
+}
+#about h2
+{
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+#about p 
+{
+    font-size: 1.2rem;
+}
+#skills 
+{
+    background-color:cyan;
+}
+#skills h2 
+{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+#skills ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+#skills ul li 
+{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+#projects 
+{
+    background-color:teal;
+}
+#projects h2 
+{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.project 
+{
+    margin-bottom: 30px;
+}
+.project h3 
+{
+    font-size: 1.8rem;
+    color: teal;
+}
+.project p 
+{
+    font-size: 1.2rem;
+}
+.project a
+{
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+.project a:hover {
+    color:blue;
+}
+#resume
+{
+    background-color:cyan;
+}
+#resume h2 
+{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+#resume a 
+{
+    font-size: 1.2rem;
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
+#resume a:hover 
+{
+    color: black;
+}
+#contact 
+{
+    background-color:teal;
+}
+#contact h2 
+{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+form label 
+{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+form input,
+form textarea 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button 
+{
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form button:hover 
+{
+    background-color: skyblue;
+}
+footer 
+{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer p
+{
+    font-size: 1rem;
+}
